@@ -8,6 +8,8 @@ class GildedRose
     'Backstage passes to a TAFKAL80ETC concert' => :backstage_handler
   }.freeze
 
+  attr_reader :items
+
   def initialize(items)
     @items = items
   end
